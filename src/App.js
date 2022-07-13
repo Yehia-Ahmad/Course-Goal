@@ -25,10 +25,14 @@ function App() {
     })
   }
 
+  const deleteItemHandler = (item) => {
+    console.log(item);
+  }
+
   return (
     <div>
       <section id='goal-form'>
-        <CourseGoalInput onAddGoal = {addGoalHandler} />
+        <CourseGoalInput onAddGoal = {addGoalHandler} onDeleteItem={deleteItemHandler} />
       </section>
       <section>
         {content}
