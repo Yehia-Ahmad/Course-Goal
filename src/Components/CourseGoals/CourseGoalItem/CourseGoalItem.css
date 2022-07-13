@@ -5,4 +5,7 @@
     color: white;
     padding: 1rem 2rem;
     cursor: pointer;
+    /* My Custom Styles */
+    width: 35rem;
+    margin-left: 15rem;
 }
