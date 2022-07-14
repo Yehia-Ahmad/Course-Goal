@@ -41,7 +41,7 @@ function App() {
       <section id="goal-form">
         <CourseGoalInput onAddGoal={addGoalHandler} />
       </section>
-      <section>{content}</section>
+      <section id="goals">{content}</section>
     </div>
   );
 }
